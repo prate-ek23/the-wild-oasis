@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import Button from './Button';
-import Heading from './Heading';
+import styled from "styled-components";
+import Button from "./Button";
+import Heading from "./Heading";
 
 const StyledConfirmDelete = styled.div`
   width: 40rem;
@@ -37,7 +37,6 @@ function ConfirmDelete({ resourceName, onConfirm, disabled, onCloseModal }) {
         >
           Cancel
         </Button>
-        
         <Button variation="danger" disabled={disabled} onClick={onConfirm}>
           Delete
         </Button>
