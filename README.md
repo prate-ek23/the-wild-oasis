@@ -7,7 +7,7 @@ This web-app is designed for the employees of a hotel named "The Wild Oasis".
 Thus only the authenticated employees are allowed to use this.\
 Login credentials:\
 email: prateek@email.com\
-password: pass1234\
+password: pass1234
 
 To test this app it would be needed to login with the above credentials.\
 Creating a new user feature would remain blocked for obvious reasons to pevent unnecessary users.\
